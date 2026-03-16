@@ -5,5 +5,5 @@
 
 
 public static class StatisticsHelper {
-    
+    public const string AppVersion = "1.0.1";
 }
