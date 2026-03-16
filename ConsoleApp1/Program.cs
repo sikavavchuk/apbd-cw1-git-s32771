@@ -32,4 +32,9 @@ public static class StatisticsHelper {
         foreach (var v in values) if (v < min) min = v;
         return min;
     }
+
+    public static string getMessage()
+    {
+        return "My message is Hello";
+    }
 }
