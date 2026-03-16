@@ -4,6 +4,8 @@ Adding text to cause non fast-forward merge
 
 Merge was not fast-forward because there were changes on the original branch before merging  
 
+Updating README before rebase 
+
 Answers to questions:  
 1.Git does a fast-forward merge when the main branch hasn't changed since you created your feature branch, so it simply moves the pointer forward. A merge commit is created instead when both branches have new commits that need to be joined together.  
 
