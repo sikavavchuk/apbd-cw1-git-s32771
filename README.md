@@ -5,6 +5,9 @@ Adding text to cause non fast-forward merge
 Merge was not fast-forward because there were changes on the original branch before merging  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b4670b4 (Update README)
 Updating README before rebase 
 
 Answers to questions:  
