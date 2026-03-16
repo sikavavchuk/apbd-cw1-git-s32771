@@ -27,5 +27,9 @@ public static class StatisticsHelper {
     return sum / values.Length;
     }
 
-    public static int CalculateMin(int[] values) { return 0; }
+    public static int CalculateMin(int[] values) { 
+         int min = values[0];
+        foreach (var v in values) if (v < min) min = v;
+        return min;
+    }
 }
