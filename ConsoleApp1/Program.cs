@@ -3,6 +3,10 @@
     Console.WriteLine($"[ERROR]: {message}");
 }
 
+double CalculateAverage(int[] values) {
+    
+}
+
 Console.WriteLine("Enter numbers (e.g. 1 2 3):");
 string[] input = Console.ReadLine().Split(' ');
 int[] numbers = Array.ConvertAll(input, int.Parse);
