@@ -26,4 +26,6 @@ public static class StatisticsHelper {
     foreach (var v in values) sum += v;
     return sum / values.Length;
     }
+
+    public static int CalculateMin(int[] values) { return 0; }
 }
