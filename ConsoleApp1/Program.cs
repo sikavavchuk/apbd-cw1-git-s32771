@@ -1,3 +1,9 @@
-﻿public static class StatisticsHelper {
+﻿void ShowError(string message)
+{
+    Console.WriteLine($"[ERROR]: {message}");
+}
+
+
+public static class StatisticsHelper {
     
 }
