@@ -35,6 +35,6 @@ public static class StatisticsHelper {
 
     public static string getMessage()
     {
-        return "My message is Goodbye";
+        return "My message is Hello";
     }
 }
